@@ -1,0 +1,53 @@
+html,body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	font-family: "SimHei";
+}
+#title{
+	position: absolute;
+	right:10px;
+	top:10px;
+	margin:5px auto;
+	background-color: #f8f8f8;
+	border: #ddd solid 1px;
+	width:150px;
+	line-height: 40px;
+	padding:0 10px;
+}
+#title span{
+	color:blue;
+}
+.layer{
+	margin:5px auto;
+	padding:5px;
+	width:920px;
+	background-color: #eee;
+	height:89px;
+	border: #ddd solid 1px;
+}
+.layer *{
+	text-shadow: 0 2px 2px #CCC;
+}
+.line,.over{
+	padding:0 5px;
+	border: #ddd solid 1px;
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	width:910px;
+	background-color: #fff;
+}
+.over{
+	margin-top:5px;
+}
+
+input.Jay {
+	margin:0;
+	border:0;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+}
