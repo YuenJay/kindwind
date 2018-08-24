@@ -24,7 +24,8 @@ class NormalLoginForm extends React.Component {
         <FormItem>
           {getFieldDecorator('userName', {
             rules: [
-                {validator:this.validator('username',!0)}
+                { required: true ,message:' '},
+                {validator:this.validator('username',true)}
             ]
           })(
             <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="帐户名" />
@@ -33,7 +34,8 @@ class NormalLoginForm extends React.Component {
         <FormItem>
           {getFieldDecorator('password', {
             rules: [
-                {validator:this.validator('password',!0)}
+                { required: true ,message:' '},
+                {validator:this.validator('password',true)}
             ]
           })(
             <Input prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" placeholder="密码" />
