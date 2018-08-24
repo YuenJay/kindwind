@@ -40,7 +40,7 @@ var KindWind = {};
         });
     }
     window.require = function(u){
-        if (u.indexOf(".") < 0){
+        if (/^[a-zA-z].[a-zA-Z0-9]+$/.test(u)){
             return window[u];
         }
         window.exports = {};
