@@ -110,8 +110,8 @@ const clickMain = (type,e) => {
 
 localforage.getItem("Token",function(err, value){
     if (!err){
-        // loginSuccess();
-        loginForm();
+         loginSuccess();
+        //loginForm();
 
         // localforage.setItem("Token","1",function(err, value){
         //     console.log(value);
