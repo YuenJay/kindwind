@@ -2,9 +2,10 @@ localforage.config({
     driver      : localforage.LOCALSTORAGE, // Force WebSQL; INDEXDDB
     name        : 'kw',
     version     : 1.0,
-    storeName   : 'KindWind', // Should be alphanumeric, with underscores.
+    storeName   : 'KindWind', 
     description : 'Ha Ha Ha'
 });
+//https://github.com/YuenJay/kindwind 
 
 var KindWind = {};
 (function(_){

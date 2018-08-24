@@ -1,5 +1,7 @@
 moment.locale("zh-cn");
 
+//https://github.com/YuenJay/kindwind 
+
 const {Sider,Footer,Header,Content} = Layout;
 const MenuItemGroup = Menu.ItemGroup;
 const SubMenu = Menu.SubMenu;
